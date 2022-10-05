@@ -14,7 +14,7 @@ You can import Postman collection "vodafone-collection.postman_collection.json" 
 If you want to use Swagger, just go to "http://localhost:8080/swagger-ui/index.html".
 
 ### Validation
-There is a custom validation annotation about vehicle type. A vehicle must be insensitive Car, Jeep or Truck.
+There is a custom validation annotation about vehicle type. A vehicle must be case sensitive Car, Jeep or Truck.
 Also I used Spring Validation for vehicle plate.  A vehicle plate size must be 10.
 
 ### Exception Handling
